@@ -47,6 +47,29 @@
    dotnet run
    ```
 
+## JSON資料格式
+
+```
+"Intensity": {
+    "County": [
+     {
+      "CountyName": "臺北市",
+      "CountyCode": "63",
+      "CountyMaxIntensity": "0級",
+      "TownNumber": "12",
+      "Town": [
+       {
+        "TownName": "中山區",
+        "TownCode": "6300400",
+        "StationLongitude": "121.534",
+        "StationLatitude": "25.065",
+        "StationIntensity": "0級"
+       }
+      ]
+     }
+
+```
+
 ## 專案結構
 
 ```
